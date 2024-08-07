@@ -44,3 +44,196 @@ body{
     margin-bottom: 100px;
     cursor: pointer;
 }
+/* Donate Today Section */
+#donate-today{
+    width: 70%;
+    margin: 120px auto;
+}
+.text{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text p{
+    color: rgba(112, 112, 112, 1);
+    margin-bottom: 30px;
+}
+.cards{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card{
+    width: 120px;
+    height: 100px;
+    color: rgba(112, 112, 112, 1);
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 8px;
+    
+}
+.card p{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+#card1{
+    width: 120px;
+    height: 100px;
+    background-color:rgba(255, 238, 238, 1);
+    color: rgba(255, 89, 89, 1);
+    border: 2px solid rgba(255, 89, 89, 1);
+    border-radius: 8px;
+    text-align: center;
+}
+#card1 p{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:rgba(255, 89, 89, 1);
+}
+.text-and-button{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.amount{
+    margin-top: 30px;
+    color: rgba(179, 179, 179, 1);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey ;
+    margin-bottom: 20px;
+}
+/* Our Donation Plan */
+#donate-plan{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-boxes{
+    width: 80%;
+    margin: 30px  auto 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.card-holder{
+    width: 33%;
+   padding: 30px;
+}
+#box1{
+    background-color:rgba(79, 157, 166, 0.1) ;
+    border-radius: 8px;
+}
+#box2{
+    background-color:rgb(255,238, 238) ;
+    border-radius: 8px;
+}
+#box3{
+    background-color:rgb(255, 244, 214);
+    border-radius: 8px;
+}
+/* Donation Works */
+#donation-works{
+    margin-bottom: 200px;
+}
+.donation-plan-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    /* border: 2px solid red; */
+}
+.donation-plan-container .text{
+    text-align: left;
+}
+ .text #btn{
+    text-align: left;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.img1{
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+}
+.img2{
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+}
+/* My Updates Section */
+#my-updates{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    /* gap: 5px; */
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 244, 214); 
+    margin-bottom: 100px;
+}
+.input-container input{
+    width: 50%;
+    height: 80%;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+}
+.input-container .btn-primary{
+    margin-top: 100px;
+}
+/* Footer Section */
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+   
+ }
+
+ footer h3{
+    font-family:"Lobster", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+ }
+ 
+ .span{
+    color: rgba(255, 89, 89, 1);
+ }
+ footer p{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(217, 219, 225, 1);
+ }
